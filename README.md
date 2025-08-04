@@ -8,7 +8,6 @@ A simple and secure Node.js & Express backend API to handle form submissions. Th
 
 - Accepts form submissions via POST requests
 - MongoDB integration using Mongoose
-- Environment-based configuration with `.env`
 - CORS enabled for frontend integration
 - Clean and scalable project structure
 
@@ -20,19 +19,20 @@ A simple and secure Node.js & Express backend API to handle form submissions. Th
 - **Database:** MongoDB + Mongoose
 - **Tools:**  nodemon, cors
 
----
 
 ## 📁 Project Structure
+```
+
+
 BackendForm/
-├── models/
-│ └── Form.js # Mongoose schema
-├── routes/
-│ └── formRoute.js # API routes
-├── server.js # App entry point
+├── node_modules
+├── .gitignore 
+├── server.js
 ├── package.json
+├── package-lock.json
 
 
----
+```
 
 ## ⚙️ Setup Instructions
 
@@ -53,6 +53,7 @@ npm install
 ```bash
 npm start
 ```
+
 
 
 
